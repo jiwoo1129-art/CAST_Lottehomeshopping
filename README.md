@@ -1,12 +1,10 @@
-# L.LIVE 팀 공동 컨택 관리
+# L.LIVE 로그인 없는 팀 공동 사이트
 
-## 배포 전 준비
-1. Supabase에서 프로젝트 생성.
-2. SQL Editor에서 `schema.sql` 실행. 마지막의 팀원 이메일 등록 SQL을 실제 이메일로 수정하여 별도 실행.
-3. `config.js`에 Supabase Project URL과 publishable/anon key 입력. **service_role/secret key 사용 금지.**
-4. Supabase Authentication > Providers에서 Email 로그인 활성화. Authentication > URL Configuration에 배포 사이트 주소를 Site URL 및 Redirect URLs로 등록.
-5. `index.html`, `config.js`를 GitHub Pages 또는 Netlify에 올려 정적 사이트 배포.
-6. 팀원은 등록된 이메일로 로그인 링크를 받아 로그인. 실시간 업데이트는 Supabase Realtime으로 동작.
+1. Supabase SQL Editor에서 schema.sql을 먼저 실행합니다.
+2. 이어서 public-access.sql을 실행합니다. 이 설정은 링크를 아는 누구에게나 읽기/수정/삭제 권한을 부여합니다. 민감한 기업 정보는 넣지 마세요.
+3. Supabase Project Settings > API에서 Project URL과 publishable/anon key를 복사해 config.js의 자리표시자를 교체합니다. secret/service_role 키는 절대 입력하지 마세요.
+4. GitHub 저장소 루트에 index.html, config.js, schema.sql, public-access.sql을 업로드/교체합니다.
+5. GitHub Settings > Pages에서 main /(root)를 배포하도록 설정합니다.
+6. https://jiwoo1129-art.github.io/CAST_Lottehomeshopping/ 에 접속합니다.
 
-## 보안
-팀원 이메일 허용 목록은 `team_members` 테이블에 SQL Editor에서만 등록합니다. RLS가 인증된 허용 팀원만 읽고 수정하도록 제한합니다. 배포된 URL만 안다고 데이터에 접근할 수 없습니다. 팀원 모두 수정/삭제 권한이 있으므로 주의하세요. 무료 요금제 한도 및 이메일 전송 제한을 확인하세요.
+로그인 없이 공동 편집할 수 있지만 공개 접근이므로 보안이 약합니다.
