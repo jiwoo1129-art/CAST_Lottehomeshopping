@@ -1,1 +1,185 @@
-[]
+[
+  {
+    "name": "프롬잇",
+    "contact": "",
+    "status": "협의 중",
+    "reply": "상품: 다이어트 간식",
+    "questions": [],
+    "discussions": [
+      {
+        "text": "방송 전후 진행할 마케팅 전략",
+        "done": false
+      },
+      {
+        "text": "제품 구성 및 목표 판매 수량",
+        "done": false
+      }
+    ]
+  },
+  {
+    "name": "슬리필로우",
+    "contact": "",
+    "status": "협의 중",
+    "reply": "상품: 경추 베개",
+    "questions": [],
+    "discussions": [
+      {
+        "text": "미팅 일정 조율",
+        "done": false
+      },
+      {
+        "text": "과거 사례 공유",
+        "done": false
+      }
+    ]
+  },
+  {
+    "name": "펠로우",
+    "contact": "",
+    "status": "회신 완료",
+    "reply": "상품: 커피용품",
+    "questions": [
+      {
+        "text": "수수료 안내",
+        "done": false
+      }
+    ],
+    "discussions": []
+  },
+  {
+    "name": "오트릿",
+    "contact": "",
+    "status": "회신 완료",
+    "reply": "상품: 귀리뻥 & 김부각",
+    "questions": [
+      {
+        "text": "상품 구성: 귀리뻥, 김부각 2종",
+        "done": true
+      }
+    ],
+    "discussions": []
+  },
+  {
+    "name": "로흐야",
+    "contact": "",
+    "status": "회신 완료",
+    "reply": "상품: 식탁보 & 쟁반",
+    "questions": [
+      {
+        "text": "상품 구성 및 할인율: 2인·3인 구성, 현재 할인가에서 추가 10% 할인 및 무료배송 가능 여부",
+        "done": true
+      }
+    ],
+    "discussions": []
+  },
+  {
+    "name": "리안헤어",
+    "contact": "",
+    "status": "회신 완료",
+    "reply": "상품: 샴푸",
+    "questions": [
+      {
+        "text": "샴푸",
+        "done": false
+      }
+    ],
+    "discussions": []
+  },
+  {
+    "name": "마마쇼",
+    "contact": "",
+    "status": "회신 완료",
+    "reply": "상품: 애견 간식",
+    "questions": [
+      {
+        "text": "상품 구성: 오리말이 중 1종 및 터키 중 1종",
+        "done": false
+      }
+    ],
+    "discussions": []
+  },
+  {
+    "name": "키크론",
+    "contact": "",
+    "status": "협의 중",
+    "reply": "상품: 키보드",
+    "questions": [],
+    "discussions": [
+      {
+        "text": "특가 조건",
+        "done": false
+      },
+      {
+        "text": "콘텐츠",
+        "done": false
+      },
+      {
+        "text": "성과 데이터",
+        "done": false
+      }
+    ]
+  },
+  {
+    "name": "도기맨 코리아",
+    "contact": "",
+    "status": "회신 완료",
+    "reply": "상품: 반려동물 상품",
+    "questions": [
+      {
+        "text": "반려동물 카테고리에 집중할지 여부",
+        "done": false
+      },
+      {
+        "text": "컨택하게 된 경로",
+        "done": false
+      },
+      {
+        "text": "단독 브랜드에 집중할지 여부",
+        "done": false
+      }
+    ],
+    "discussions": []
+  },
+  {
+    "name": "갤러리펫",
+    "contact": "",
+    "status": "회신 완료",
+    "reply": "상품: 반려동물 상품",
+    "questions": [
+      {
+        "text": "대면 미팅 가능 여부",
+        "done": false
+      }
+    ],
+    "discussions": []
+  },
+  {
+    "name": "프로젝트 컴퍼니",
+    "contact": "",
+    "status": "회신 완료",
+    "reply": "상품: 겨울 용품 (이불 등)",
+    "questions": [
+      {
+        "text": "제품 및 기본 자료 제공 외 별도 지원 사항(촬영 지원, 인력 투입, 제품 협찬, 섭외 등)",
+        "done": false
+      },
+      {
+        "text": "2회 방송의 구체적 진행 방식과 일정",
+        "done": false
+      },
+      {
+        "text": "판매가 및 할인율 조건",
+        "done": false
+      },
+      {
+        "text": "[벤더사 문의] 롯데홈쇼핑 신규 입점 필요 여부 및 절차(간소화된 판매 등록 가능 여부)",
+        "done": false
+      },
+      {
+        "text": "[벤더사 문의] 방송 2회 이후 지속적 입점 및 상품 운영 의무 여부",
+        "done": false
+      }
+    ],
+    "discussions": []
+  }
+]
